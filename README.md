@@ -1,15 +1,15 @@
 # The Cache Package [![Build Status](https://travis-ci.org/joomla-framework/cache.png?branch=master)](https://travis-ci.org/joomla-framework/cache)
 
-[![Latest Stable Version](https://poser.pugx.org/joomla/cache/v/stable)](https://packagist.org/packages/joomla/cache)
-[![Total Downloads](https://poser.pugx.org/joomla/cache/downloads)](https://packagist.org/packages/joomla/cache)
-[![Latest Unstable Version](https://poser.pugx.org/joomla/cache/v/unstable)](https://packagist.org/packages/joomla/cache)
-[![License](https://poser.pugx.org/joomla/cache/license)](https://packagist.org/packages/joomla/cache)
+[![Latest Stable Version](https://poser.pugx.org/alejoasotelo/joomla-cache-compat/v/stable)](https://packagist.org/packages/alejoasotelo/joomla-cache-compat)
+[![Total Downloads](https://poser.pugx.org/alejoasotelo/joomla-cache-compat/downloads)](https://packagist.org/packages/alejoasotelo/joomla-cache-compat)
+[![Latest Unstable Version](https://poser.pugx.org/alejoasotelo/joomla-cache-compat/v/unstable)](https://packagist.org/packages/alejoasotelo/joomla-cache-compat)
+[![License](https://poser.pugx.org/alejoasotelo/joomla-cache-compat/license)](https://packagist.org/packages/alejoasotelo/joomla-cache-compat)
 
 This cache package is based on a version of the now accepted PSR-6 as it was in 2013.
 
 ## Deprecated
 
-The `joomla/cache` package has been deprecated with no further updates planned.
+The `alejoasotelo/joomla-cache-compat` package has been deprecated with no further updates planned.
 
 ## Options and General Usage
 
@@ -187,12 +187,12 @@ class FactoryTest extends \PHPUnit_Framework_TestCase
 
 ## Installation via Composer
 
-Add `"joomla/cache": "~1.0"` to the require block in your composer.json and then run `composer install`.
+Add `"alejoasotelo/joomla-cache-compat": "~1.0"` to the require block in your composer.json and then run `composer install`.
 
 ```json
 {
 	"require": {
-		"joomla/cache": "~1.0"
+		"alejoasotelo/joomla-cache-compat": "~1.0"
 	}
 }
 ```
@@ -200,5 +200,5 @@ Add `"joomla/cache": "~1.0"` to the require block in your composer.json and then
 Alternatively, you can simply run the following from the command line:
 
 ```sh
-composer require joomla/cache "~1.0"
+composer require alejoasotelo/joomla-cache-compat "~1.0"
 ```
