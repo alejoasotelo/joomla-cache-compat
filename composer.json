@@ -1,5 +1,5 @@
 {
-    "name": "joomla/cache-compat",
+    "name": "alejoasotelo/joomla-cache-compat",
     "type": "joomla-package",
     "description": "Joomla Cache Package",
     "keywords": ["joomla", "framework", "cache"],
