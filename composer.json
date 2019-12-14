@@ -1,7 +1,7 @@
 {
     "name": "alejoasotelo/joomla-cache-compat",
     "type": "joomla-package",
-    "description": "Joomla Cache Package",
+    "description": "Joomla Cache Package - PSR Compatbility",
     "keywords": ["joomla", "framework", "cache"],
     "homepage": "https://github.com/joomla-framework/cache",
     "license": "GPL-2.0-or-later",
