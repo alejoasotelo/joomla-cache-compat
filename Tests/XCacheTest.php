@@ -23,7 +23,7 @@ class XCacheTest extends TestCase
 	private $instance;
 
 	/**
-	 * Tests for the correct Psr\Cache return values.
+	 * Tests for the correct PsrCompat\Cache return values.
 	 *
 	 * @return  void
 	 *
@@ -33,7 +33,7 @@ class XCacheTest extends TestCase
 	public function testPsrCache()
 	{
 		$this->assertInternalType('boolean', $this->instance->clear(), 'Checking clear.');
-		$this->assertInstanceOf('\Psr\Cache\CacheItemInterface', $this->instance->get('foo'), 'Checking get.');
+		$this->assertInstanceOf('\PsrCompat\Cache\CacheItemInterface', $this->instance->get('foo'), 'Checking get.');
 		$this->assertInternalType('array', $this->instance->getMultiple(array('foo')), 'Checking getMultiple.');
 		$this->assertInternalType('boolean', $this->instance->remove('foo'), 'Checking remove.');
 		$this->assertInternalType('array', $this->instance->removeMultiple(array('foo')), 'Checking removeMultiple.');

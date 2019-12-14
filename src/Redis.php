@@ -8,7 +8,7 @@
 
 namespace Joomla\Cache;
 
-use Psr\Cache\CacheItemInterface;
+use PsrCompat\Cache\CacheItemInterface;
 use Redis as RedisDriver;
 
 /**

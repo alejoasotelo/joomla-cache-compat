@@ -8,8 +8,8 @@
 
 namespace Joomla\Cache;
 
-use Psr\Cache\CacheInterface;
-use Psr\Cache\CacheItemInterface;
+use PsrCompat\Cache\CacheInterface;
+use PsrCompat\Cache\CacheItemInterface;
 
 /**
  * Joomla! Caching Class

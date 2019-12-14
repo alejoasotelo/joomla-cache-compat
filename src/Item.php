@@ -8,7 +8,7 @@
 
 namespace Joomla\Cache;
 
-use Psr\Cache\CacheItemInterface;
+use PsrCompat\Cache\CacheItemInterface;
 
 /**
  * Cache item instance for the Joomla Framework.
@@ -93,7 +93,7 @@ class Item implements CacheItemInterface
 	public function setValue($value)
 	{
 		$this->value = $value;
-		$this->hit   = true;
+		$this->hit = true;
 	}
 
 	/**

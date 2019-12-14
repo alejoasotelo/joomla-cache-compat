@@ -8,7 +8,7 @@ namespace Joomla\Cache\Tests;
 
 use Joomla\Cache\Cache;
 use Joomla\Cache\Item;
-use Psr\Cache\CacheItemInterface;
+use PsrCompat\Cache\CacheItemInterface;
 
 /**
  * Tests for the Joomla\Cache\Cache class.

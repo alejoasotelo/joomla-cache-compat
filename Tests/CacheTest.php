@@ -372,7 +372,7 @@ class CacheTest extends TestCase
 	}
 
 	/**
-	 * Tests for the correct Psr\Cache return values.
+	 * Tests for the correct PsrCompat\Cache return values.
 	 *
 	 * @return  void
 	 *
@@ -384,7 +384,7 @@ class CacheTest extends TestCase
 		$cacheInstance = $this->instance;
 		$cacheClass = get_class($cacheInstance);
 		$interfaces = class_implements($cacheClass);
-		$psrInterface = 'Psr\\Cache\\CacheInterface';
+		$psrInterface = 'PsrCompat\\Cache\\CacheInterface';
 		$targetClass = $this->cacheClass;
 		$this->assertArrayHasKey($psrInterface, $interfaces, __LINE__);
 		$cacheClass = get_class($cacheInstance);

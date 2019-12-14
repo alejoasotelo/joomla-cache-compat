@@ -8,7 +8,7 @@
 
 namespace Joomla\Cache;
 
-use Psr\Cache\CacheItemInterface;
+use PsrCompat\Cache\CacheItemInterface;
 
 /**
  * XCache cache driver for the Joomla Framework.
